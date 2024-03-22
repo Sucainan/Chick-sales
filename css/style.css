@@ -1,0 +1,46 @@
+/*stylesheet*/
+body {
+    width: 80rem;
+    margin-inline: auto;
+    background: url(../svg/Group\ 6.svg) no-repeat;
+    background-position: top left;
+    height: 50vh;
+    font-family: Inter;
+}
+ul {
+    list-style: none;
+}
+.nav {
+    display: flex;
+    gap: 13rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.midnav {
+    display: flex;
+    gap: 5rem;
+    margin-left: -3rem;
+    color: #818080;
+}
+.but1 {
+    background-color: #EA6028;
+    height: 4vh;
+    width: 8%;
+    border-radius: 2rem;
+    border-style: none;
+    color: white;
+    margin-top: 0.8rem;
+}
+.li1 {
+    color: #5C5C5C;
+    font-weight: 700;
+    padding-bottom: 0.7rem;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.15turn, #FAB250, #E02F2B, rgba(56,2,155,0));
+    border-image-slice: 1;
+}
+.logo {
+    height: 4rem;
+    margin-top: -1.3rem;
+    margin-left: -20px;
+}
