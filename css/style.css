@@ -6,19 +6,20 @@ body {
     background-position: top left;
     height: 50vh;
     font-family: Inter;
+    background-color: linear-gradient(220deg, #fdfdfd, #515151);
 }
 ul {
     list-style: none;
 }
 .nav {
     display: flex;
-    gap: 13rem;
+    gap: 15rem;
     margin-bottom: 2rem;
     margin-top: 3rem;
 }
 .midnav {
     display: flex;
-    gap: 5rem;
+    gap: 6rem;
     margin-left: -3rem;
     color: #818080;
 }
@@ -30,6 +31,7 @@ ul {
     border-style: none;
     color: white;
     margin-top: 0.8rem;
+    font-size: 17px;
 }
 .li1 {
     color: #5C5C5C;
@@ -40,7 +42,101 @@ ul {
     border-image-slice: 1;
 }
 .logo {
-    height: 4rem;
+    height: 4.5rem;
     margin-top: -1.3rem;
     margin-left: -20px;
+}
+.chick {
+    width: 40rem;
+    /* margin-left: 19%; */
+}
+.Hero {
+    display: flex;
+}
+.sh {
+    font-family: Istok Web;
+    color: #5C5C5C;
+}
+.heroi {
+   margin-bottom: 10rem;
+   width: 59rem;
+}
+.head1 {
+    font-size: 8rem;
+    margin-bottom: -1rem;
+    line-height: 1;
+}
+.butto {
+    display: flex;
+    gap: 35px;
+}
+.but {
+    background-color: #EE763F;
+    height: 4.8vh;
+    width: 22%;
+    color: white;
+    border-radius: 2rem;
+    border-style: none;
+    font-size: 17px;
+}
+.but2 {
+    margin-top: 0.8rem;
+    font-size: 17px;
+    font-weight: 500;
+}
+.sr {
+    font-size: 20px;
+    color: #818080;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.para {
+    margin-bottom: 2.2rem;
+}
+.chi {
+    display: flex;
+}
+.svg1 {
+    width: 13rem;
+    position: relative;
+    top: 18rem;
+    left: -17rem;
+}
+.emoji {
+    background-color: white;
+    border-top-left-radius: 110%;
+    border-top-right-radius: 110%;
+    border-bottom-right-radius: 110%;
+    width: 4vw;
+    height: 9vh;
+    position: absolute;
+    left: 94.5rem;
+    top: 21rem;
+}
+.emo {
+    width: 2.5rem;
+    margin-left: 0.9rem;
+    margin-top: 1.3rem;
+}
+.svg2 {
+    width: 3rem;
+    position: absolute;
+    top: -1.5rem;
+}
+.conta {
+    position: absolute;
+    top: 34rem;
+    left: 55.5rem;
+    background-color: white;
+    border-radius: 8%;
+    width: 13rem;
+    height: 5.2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.par {
+    font-size: 15px;
+}
+li {
+    font-size: 17px;
 }
