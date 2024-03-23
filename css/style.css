@@ -2,8 +2,10 @@
 body {
     width: 80rem;
     margin-inline: auto;
-    background: url(../svg/Group\ 6.svg) no-repeat;
-    background-position: top left;
+    background-image: url(../svg/Group\ 6.svg), url(../svg/Group\ 7.svg);
+    background-repeat: no-repeat;
+    background-position-y:top, 35rem;
+    background-position-x: left, right;
     height: 50vh;
     font-family: Inter;
     background-color: linear-gradient(220deg, #fdfdfd, #515151);
@@ -82,7 +84,7 @@ ul {
 .but2 {
     margin-top: 0.8rem;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 500    ;
 }
 .sr {
     font-size: 20px;
@@ -137,6 +139,67 @@ ul {
 .par {
     font-size: 15px;
 }
-li {
+/* li {
     font-size: 17px;
+} */
+.adout {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 40%;
+}
+.ado {
+    display: flex;
+    gap: 2rem;
+}
+.Best {
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: -0.9rem;
+}
+.ul1 {
+    display: flex;
+    color: #E02F2B;
+    gap: 9rem;
+    font-size: 25px;
+    padding: 0;
+    margin-block: 0.5rem;
+}
+.ul2 {
+    display: flex;
+    font-size: 18px;
+    color: #818080;
+    gap: 9rem;
+    font-weight: 500;
+    padding: 0;
+}
+.fr {
+    display: flex;
+    gap: 6rem;
+    position: absolute;
+    left: 21.5rem;
+    top: 74rem;
+    height: 16rem;
+}
+.de {
+    background-color: white;
+    border-radius: 8%;
+    width: 16rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.ch {
+    color: #818080;
+    letter-spacing: 0.4rem;
+}
+h4 {
+    color: #515151;
+    font-size: 2rem;
+    margin-block: 0.5rem;
+}
+.re {
+    width: 1.7rem;
+}
+.sp {
+    color: #818080;
+    margin-top: -0.2rem;
 }
